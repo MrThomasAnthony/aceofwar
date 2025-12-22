@@ -3,12 +3,11 @@ import droneVideo from "../assets/droneview.mp4";
 import GameModes from "../components/sections/GameModes";
 import Features from "../components/sections/Features";
 import Pricing from "../components/sections/Pricing";
+import Reviews from "../components/sections/Reviews";
 
-function Home() {
+const Home = () => {
   return (
-    <div>
-      {/* Hero Section */}
-      {/* Hero Section Container */}
+    <div className="w-full">
       <div className="relative w-full h-[500px] flex items-center justify-center overflow-hidden mb-20">
         {/* 1. BACKGROUND VIDEO */}
         <video
@@ -52,10 +51,12 @@ function Home() {
       {/* 3. VALUE BUILDER (The Quality) */}
       <Features />
 
+      <Reviews />
+
       {/* 4. PRICING (The Close) */}
       <Pricing />
     </div>
   );
-}
+};
 
 export default Home;

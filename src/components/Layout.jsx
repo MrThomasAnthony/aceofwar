@@ -16,6 +16,7 @@ const Layout = ({ children }) => {
       <Navbar
         className="bg-black/80 backdrop-blur-md border-b border-white/10"
         maxWidth="xl"
+        shouldHideOnScroll
       >
         <NavbarBrand>
           <svg

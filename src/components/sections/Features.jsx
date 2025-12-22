@@ -13,44 +13,46 @@ const Features = () => {
             Why We Are <span className="text-primary">The Best</span>
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            Don't settle for cheap plastic toys. We use military-grade
-            simulation equipment used by law enforcement for training.
+            This isn't just laser tag, it's tactical combat. Our system is built
+            for mission-based scenarios with real-time feedback. Here's the
+            loadout:
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 text-center">
           {/* Feature 1 */}
           <div className="p-6 border border-white/10 bg-black/40 rounded-xl hover:border-primary/50 transition-colors">
-            <div className="text-5xl mb-4">🔫</div>
+            <div className="text-5xl mb-4"></div>
             <h3 className="text-xl font-bold text-white mb-2 uppercase">
-              Tactical Feedback
+              HIGH-TECH TAGGERS:
             </h3>
             <p className="text-zinc-400 text-sm">
-              Real recoil, muzzle flash, and hit confirmation sensors. It feels
-              like the real thing.
+              Our equipment fires precise infrared beams. No vests, no
+              projectiles—just pinpoint accuracy with haptic feedback.
             </p>
           </div>
 
           {/* Feature 2 */}
-          <div className="p-6 border border-primary/30 bg-primary/5 rounded-xl hover:shadow-[0_0_30px_rgba(153,0,0,0.3)] transition-all">
-            <div className="text-5xl mb-4">🏟️</div>
+          <div className="p-6 border border-white/10 bg-black/40 rounded-xl hover:border-primary/50 transition-colors">
+            <div className="text-5xl mb-4"></div>
             <h3 className="text-xl font-bold text-white mb-2 uppercase">
-              Multi-Level Arena
+              SMART SENSORS:
             </h3>
             <p className="text-zinc-400 text-sm">
-              5,000 sq ft of ramps, sniper towers, and fog-filled corridors.
+              Sensors on the tagger and your head register every hit. Your gear
+              lights up, vibrates, and alerts you when you're eliminated.
             </p>
           </div>
 
           {/* Feature 3 */}
           <div className="p-6 border border-white/10 bg-black/40 rounded-xl hover:border-primary/50 transition-colors">
-            <div className="text-5xl mb-4">📊</div>
+            <div className="text-5xl mb-4"></div>
             <h3 className="text-xl font-bold text-white mb-2 uppercase">
-              Live Scoring
+              REAL-TIME STATS:
             </h3>
             <p className="text-zinc-400 text-sm">
-              Track your K/D ratio, accuracy, and rank on our lobby leaderboards
-              in real-time.
+              Your performance is tracked live. See your score, accuracy, and
+              team ranking on the arena leaderboards.
             </p>
           </div>
         </div>

@@ -5,20 +5,38 @@ import { Card, CardHeader, CardFooter, Image, Button } from "@nextui-org/react";
 const GameModes = () => {
   const modes = [
     {
-      title: "TEAM DEATHMATCH",
-      desc: "Red vs Blue. Tactical squad warfare.",
+      title: "FREE FOR ALL",
+      desc: "Everyone for themselves. The player with the most points at the end wins.",
       // Unsplash: Tactical Squad in Camo (Matches "Squad Warfare")
       img: "https://images.unsplash.com/photo-1696863681602-0e5a31742418?q=80&w=800&auto=format&fit=crop",
     },
     {
-      title: "ZOMBIE INFECTION",
-      desc: "One alpha zombie infects the survivors.",
+      title: "KING OF THE HILL",
+      desc: "Hold the hill until you reach 700 points. Power-ups are hidden around the arena.",
       // Unsplash: Man in Skeleton Mask with Gun (Perfect for "Infection" Mode)
       img: "https://images.unsplash.com/photo-1689218669566-f49c58550134?q=80&w=800&auto=format&fit=crop",
     },
     {
+      title: "TEAM DEATHMATCH",
+      desc: "Teams compete for the most points. Unlimited respawns keep the action going.",
+      // Unsplash: Night Laser Tag Action (Fits "Infiltrate" vibe)
+      img: "https://images.unsplash.com/photo-1563050860-61266c23075c?q=80&w=800&auto=format&fit=crop",
+    },
+    {
+      title: "POINT RUSH",
+      desc: "Start with 100 points, race to 200. +5 for a kill, –5 for a death.",
+      // Unsplash: Tactical Squad in Camo (Matches "Squad Warfare")
+      img: "https://images.unsplash.com/photo-1696863681602-0e5a31742418?q=80&w=800&auto=format&fit=crop",
+    },
+    {
       title: "CAPTURE THE FLAG",
-      desc: "Infiltrate the enemy base. Seize the objective.",
+      desc: "Steal the enemy’s flag and return it to your base. First team to 5 captures wins.",
+      // Unsplash: Man in Skeleton Mask with Gun (Perfect for "Infection" Mode)
+      img: "https://images.unsplash.com/photo-1689218669566-f49c58550134?q=80&w=800&auto=format&fit=crop",
+    },
+    {
+      title: "ELIMINATION",
+      desc: "Each player has 5 lives. Last one standing wins.",
       // Unsplash: Night Laser Tag Action (Fits "Infiltrate" vibe)
       img: "https://images.unsplash.com/photo-1563050860-61266c23075c?q=80&w=800&auto=format&fit=crop",
     },
@@ -60,7 +78,7 @@ const GameModes = () => {
                 radius="full"
                 size="sm"
               >
-                DETAILS
+                PLAY
               </Button>
             </CardFooter>
           </Card>

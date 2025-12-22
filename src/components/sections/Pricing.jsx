@@ -21,18 +21,20 @@ const Pricing = () => {
         {/* Basic Tier */}
         <Card className="bg-black border border-white/10 p-4 hover:border-white/30 transition-all">
           <CardHeader className="flex-col items-start pb-0">
-            <h4 className="font-bold text-2xl text-white uppercase">Rookie</h4>
+            <h4 className="font-bold text-2xl text-white uppercase">
+              Individual Play
+            </h4>
             <p className="text-zinc-500 text-sm">For quick skirmishes</p>
           </CardHeader>
           <CardBody className="py-8">
             <div className="flex items-baseline">
-              <span className="text-4xl font-bold text-white">$25</span>
+              <span className="text-4xl font-bold text-white">$12-20</span>
               <span className="text-zinc-500 ml-2">/ player</span>
             </div>
             <ul className="mt-6 space-y-3 text-zinc-400 text-sm list-disc pl-4">
-              <li>1 Hour Gameplay</li>
-              <li>Standard Phaser</li>
-              <li>Scorecard</li>
+              <li>Perfect for walk-ins</li>
+              <li>Test your skills against other players</li>
+              <li>No minimum group required</li>
             </ul>
           </CardBody>
           <CardFooter>
@@ -58,20 +60,19 @@ const Pricing = () => {
           </div>
           <CardHeader className="flex-col items-start pb-0">
             <h4 className="font-bold text-3xl text-primary uppercase italic">
-              Veteran
+              Private Sessions
             </h4>
-            <p className="text-zinc-400 text-sm">The full experience</p>
+            <p className="text-zinc-400 text-sm"></p>
           </CardHeader>
           <CardBody className="py-8">
             <div className="flex items-baseline">
-              <span className="text-5xl font-bold text-white">$40</span>
-              <span className="text-zinc-500 ml-2">/ player</span>
+              <span className="text-5xl font-bold text-white">$350</span>
+              <span className="text-zinc-500 ml-2">/ group</span>
             </div>
             <ul className="mt-6 space-y-4 text-zinc-300 font-medium list-disc pl-4">
-              <li>2 Hours Gameplay</li>
-              <li>Advanced Weapon Loadout</li>
-              <li>Detailed Stat Sheet</li>
-              <li>1 Free Drink</li>
+              <li>Up to 20 players</li>
+              <li>Play together or compete head-to-head as teams</li>
+              <li>Ideal for school trips, team-building, or hangouts</li>
             </ul>
           </CardBody>
           <CardFooter>
@@ -79,7 +80,7 @@ const Pricing = () => {
               className="w-full bg-primary text-white font-bold shadow-lg shadow-primary/40"
               size="lg"
             >
-              BOOK VETERAN
+              BOOK NOW
             </Button>
           </CardFooter>
         </Card>
@@ -92,14 +93,13 @@ const Pricing = () => {
           </CardHeader>
           <CardBody className="py-8">
             <div className="flex items-baseline">
-              <span className="text-4xl font-bold text-white">$350</span>
+              <span className="text-4xl font-bold text-white">$450</span>
               <span className="text-zinc-500 ml-2">/ group</span>
             </div>
             <ul className="mt-6 space-y-3 text-zinc-400 text-sm list-disc pl-4">
-              <li>Up to 10 Players</li>
-              <li>2 Hours Gameplay</li>
-              <li>Private Party Room</li>
-              <li>Pizza & Drinks</li>
+              <li>Includes multiple games plus reserved party space</li>
+              <li>Food & drink options available</li>
+              <li>Perfect for birthdays, celebrations, or special events</li>
             </ul>
           </CardBody>
           <CardFooter>
