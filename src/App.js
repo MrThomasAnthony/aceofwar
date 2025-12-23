@@ -6,6 +6,7 @@ import Layout from "./components/Layout";
 
 // 2. Import your Pages (Create these placeholder files if you haven't yet)
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           {/* The 'element' is what gets passed into Layout's {children} */}
           <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
 
           {/* Catch-all for 404s */}
           <Route

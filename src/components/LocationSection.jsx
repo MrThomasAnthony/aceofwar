@@ -110,7 +110,7 @@ const LocationSection = () => {
               <div className="flex gap-4">
                 {/* Facebook Icon */}
                 <Link
-                  href="#"
+                  href="https://www.facebook.com/p/Ace-Of-War-100087511102173/"
                   className="text-zinc-400 hover:text-[#1877F2] transition-colors"
                 >
                   <svg
@@ -129,7 +129,7 @@ const LocationSection = () => {
 
                 {/* Instagram Icon */}
                 <Link
-                  href="#"
+                  href="https://www.instagram.com/aow.official/"
                   className="text-zinc-400 hover:text-[#E4405F] transition-colors"
                 >
                   <svg
